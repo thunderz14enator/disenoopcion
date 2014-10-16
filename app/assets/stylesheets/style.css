@@ -14,8 +14,8 @@ ul, ol {list-style:none}
 .wrapper {width:100%;overflow:hidden}
 .container {width:100%}
 /* GLOBAL */
-#main {width:1000px;margin:0 auto;font-size:.8125em;position:relative;background:url(assets/main-bg.jpg) no-repeat left 291px #a53b19}
-#header {height:291px;background:url(assets/header-bg.jpg) no-repeat left bottom}
+#main {width:1000px;margin:0 auto;font-size:.8125em;position:relative;background:url(main-bg.jpg) no-repeat left 291px #a53b19}
+#header {height:291px;background:url(header-bg.jpg) no-repeat left bottom}
 #content {padding:0 20px 20px 20px}
 #content .aside {float:left;width:275px;margin-right:30px}
 #content .mainContent {float:left;width:655px}
@@ -34,32 +34,32 @@ p {margin-bottom:18px}
 /* txt, links, lines, titles */
 a {color:#fff;outline:none}
 a:hover{text-decoration:none}
-h1 {width:399px;height:138px;background:url(assets/logo.jpg) no-repeat left top;text-indent:-9999em}
+h1 {width:399px;height:138px;background:url(logo.jpg) no-repeat left top;text-indent:-9999em}
 h1 a {display:block;width:399px;height:138px}
-h2 {background:url(assets/title-bg.jpg) no-repeat left top;height:47px;font-size:18px;line-height:47px;color:#fff;text-transform:uppercase;font-weight:normal;padding:0 0 0 28px}
+h2 {background:url(title-bg.jpg) no-repeat left top;height:47px;font-size:18px;line-height:47px;color:#fff;text-transform:uppercase;font-weight:normal;padding:0 0 0 28px}
 h3 {font-size:18px;line-height:1.2em;color:#fff;text-transform:uppercase;margin-bottom:15px}
-h4 {font-size:14px;font-weight:normal;background:url(assets/title-left.gif) no-repeat left top;padding-left:1px;color:#fff}
-h4 span {display:block;background:url(assets/title-right.gif) no-repeat right top;padding-right:1px}
+h4 {font-size:14px;font-weight:normal;background:url(title-left.gif) no-repeat left top;padding-left:1px;color:#fff}
+h4 span {display:block;background:url(title-right.gif) no-repeat right top;padding-right:1px}
 h4 span span {background:#242424;padding:5px 0 5px 19px}
 h5 {font-size:1em;color:#fff}
 h5 a {text-decoration:none}
 h5 a:hover {text-decoration:underline}
 h6 {font-size:1em;margin-bottom:18px}
 /* boxes */
-.box {background:url(assets/box-bg.png) left top;width:100%}
+.box {background:url(box-bg.png) left top;width:100%}
 .box .inner {padding:40px 30px 30px 30px}
 .box .inner .inner, .box1 .inner .inner, .box2 .inner .inner {padding:22px 0 0 10px}
-.box1 {background:url(assets/box1-bg.png) left top;width:100%}
+.box1 {background:url(box1-bg.png) left top;width:100%}
 .box1 .inner {padding:26px 30px 30px 30px}
-.box2 {background:url(assets/box2-bg.png) left top;width:100%;font-family:Tahoma, Geneva, sans-serif}
+.box2 {background:url(box2-bg.png) left top;width:100%;font-family:Tahoma, Geneva, sans-serif}
 .box2 .inner {padding:22px 20px 20px 24px}
 /* header */
-.extra-bg {position:absolute;background:url(assets/extra-bg.png) no-repeat left top;width:397px;height:333px;top:7px;left:5px;z-index:10}
-#header .row-1 {height:61px;background:url(assets/header-bg-top.gif) left top repeat-x;overflow:hidden}
+.extra-bg {position:absolute;background:url(extra-bg.png) no-repeat left top;width:397px;height:333px;top:7px;left:5px;z-index:10}
+#header .row-1 {height:61px;background:url(header-bg-top.gif) left top repeat-x;overflow:hidden}
 #header .top-links {float:left;padding:16px 0 0 23px;position:relative;z-index:11}
 #header .top-links li {float:left}
 #header .nav {float:right;padding:18px 0 0 0;position:relative;z-index:12}
-#header .nav li {float:left;background:url(assets/divider.gif) no-repeat left top;padding:0 42px 0 43px;font-size:15px;line-height:1.2em}
+#header .nav li {float:left;background:url(divider.gif) no-repeat left top;padding:0 42px 0 43px;font-size:15px;line-height:1.2em}
 #header .nav li.first {background:none}
 #header .nav li a {color:#fff;text-decoration:none;text-transform:uppercase;float:left;padding:3px 0 3px 0}
 #header .nav li a:hover {color:#b95126}
@@ -79,20 +79,20 @@ h6 {font-size:1em;margin-bottom:18px}
 .list1 li {width:100%;overflow:hidden;padding-bottom:17px}
 .list1 li img {float:left;margin-right:15px}
 .list2 {padding-bottom:18px}
-.list2 li {background:url(assets/arrow1.gif) no-repeat left 7px;padding:0 0 0 12px;position:relative}
+.list2 li {background:url(arrow1.gif) no-repeat left 7px;padding:0 0 0 12px;position:relative}
 .list2 li a {font-weight:bold}
 /* footer */
 #footer {font-family:Tahoma, Geneva, sans-serif}
 #footer img {position:relative;margin-top:-2px}
 #footer .nav {background:#242424;padding:12px 0 11px 0;text-align:center;margin-bottom:27px;font-family:Arial, Helvetica, sans-serif}
 #footer .nav li {display:inline}
-#footer .nav li a {color:#fff;font-size:14px;background:url(assets/divider1.gif) no-repeat left 4px;padding:0 65px 0 65px}
+#footer .nav li a {color:#fff;font-size:14px;background:url(divider1.gif) no-repeat left 4px;padding:0 65px 0 65px}
 #footer .nav li a.first {background:none}
 /* forms */
 #poll-form fieldset {border:none}
 #poll-form label {display:block;vertical-align:top;width:100%;overflow:hidden;height:24px}
 #poll-form input.radio {width:14px;height:14px;margin-right:5px}
-#poll-form input.submit {background:url(assets/vote.gif) no-repeat left top;width:77px;height:20px;color:#fff;text-align:center;border:none;font-size:14px}
+#poll-form input.submit {background:url(vote.gif) no-repeat left top;width:77px;height:20px;color:#fff;text-align:center;border:none;font-size:14px}
 #poll-form div {padding-top:16px}
 #contacts-form {clear:right;width:100%;overflow:hidden}
 #contacts-form fieldset {border:none;float:left}
@@ -100,5 +100,5 @@ h6 {font-size:1em;margin-bottom:18px}
 #contacts-form label {float:left;width:107px;line-height:18px;padding-bottom:4px;font-weight:bold}
 #contacts-form input {width:265px;padding:0 0 0 3px;background:#fff;border:1px solid #952a10;color:#111;float:left}
 #contacts-form textarea {width:484px;height:280px;padding:1px 0 1px 3px;background:#fff;border:1px solid #952a10;color:#111;margin-bottom:15px;overflow:auto;float:left}
-#contacts-form a {float:right;background:url(assets/send-button.gif) no-repeat left top;width:178px;height:20px;line-height:20px;color:#fff;text-decoration:none;text-align:center}
+#contacts-form a {float:right;background:url(send-button.gif) no-repeat left top;width:178px;height:20px;line-height:20px;color:#fff;text-decoration:none;text-align:center}
 #contacts-form a:hover {text-decoration:underline}

@@ -10,7 +10,7 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//require jquery-1.3.2.min.js
+//require cufon-yui.js
+//require cufon-replace.js
+//require myd.js
